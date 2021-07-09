@@ -16,7 +16,7 @@ OPSWAT api calls to metadefender api to obtain scan reports using hash values or
 
 ![image](https://user-images.githubusercontent.com/59483688/125092380-4eb77580-e09f-11eb-81dc-64cbdd3cdbd7.png)
 
-* terminal command: python3 api_call.py file-path
+* execute the following terminal command: python3 api_call.py file-path
 
 
 Examples:
