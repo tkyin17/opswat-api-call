@@ -21,4 +21,6 @@ From testing, one scan report contained scan result code 10 which contained less
 Based on this scenario, I had all scan result code that I was not able to view the json format of simply print the scan result code along with the associated message instead of attempting to print the json information.
 
 Example output:
+
+
 ![image](https://user-images.githubusercontent.com/59483688/125090000-df408680-e09c-11eb-9469-b8ae88ab41af.png)
