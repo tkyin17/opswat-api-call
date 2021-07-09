@@ -20,7 +20,7 @@ Examples:
 
 * python3 api_call.py C:\Users\name\Desktop\sample.txt
 
-Other details:
+Other:
 
 ![image](https://user-images.githubusercontent.com/59483688/125092380-4eb77580-e09f-11eb-81dc-64cbdd3cdbd7.png)
 
