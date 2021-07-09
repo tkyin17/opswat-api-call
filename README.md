@@ -20,6 +20,12 @@ Examples:
 
 * python3 api_call.py C:\Users\name\Desktop\sample.txt
 
+Other details:
+
+![image](https://user-images.githubusercontent.com/59483688/125092380-4eb77580-e09f-11eb-81dc-64cbdd3cdbd7.png)
+
+* The program uses md5 hashing method by default. To change to one of the other methods, at the bottom of the .py file, uncomment and comment the respective lines required before running the program.
+
 
 # Details
 
@@ -32,6 +38,7 @@ The scan reports appears to have different json formatting depending on the scan
 From testing, one scan report contained scan result code 10 which contained less info than the normal scan report. Code 10 in particular means that the scan was not executed which resulted in the scan report being incomplete. No details on why the scan was skipped.
 
 Based on this scenario, I had all scan result code that I was unable to view the json format of simply print the scan result code along with the associated message instead of attempting to print the json information.
+
 
 Example output:
 
