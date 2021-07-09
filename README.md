@@ -19,3 +19,6 @@ The scan reports appears to have different json formatting depending on the scan
 From testing, one scan report contained scan result code 10 which contained less info than the normal scan report. Code 10 in particular means that the scan was not executed which resulted in the scan report being incomplete. No details on why the scan was skipped.
 
 Based on this scenario, I had all scan result code that I was not able to view the json format of simply print the scan result code along with the associated message instead of attempting to print the json information.
+
+Example output:
+![image](https://user-images.githubusercontent.com/59483688/125090000-df408680-e09c-11eb-9469-b8ae88ab41af.png)
