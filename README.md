@@ -7,7 +7,7 @@ Before running the program, replace 'KEY' in the api_headers and upload_headers 
 
 
 To run:
-python3 api_call.py file
+python3 api_call.py file-path
 
 Example:
 python3 api_call.py sample.txt
