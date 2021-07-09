@@ -14,10 +14,10 @@ hash_url = 'https://api.metadefender.com/v4/hash/'
 upload_url = 'https://api.metadefender.com/v4/file/'
 
 # for retrieving scan reports using hash value and polling
-api_headers = {'apikey': '2a798b4d15c55113ad405114994ee716'}
+api_headers = {'apikey': 'KEY'}
 
 # for upload request
-upload_headers = {'apikey': '2a798b4d15c55113ad405114994ee716', 'content-type': 'application/octet-stream', 'sandbox': 'windows10'}
+upload_headers = {'apikey': 'KEY', 'content-type': 'application/octet-stream', 'sandbox': 'windows10'}
 
 filename = sys.argv[1]
 
