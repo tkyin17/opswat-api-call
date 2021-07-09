@@ -3,22 +3,22 @@ OPSWAT api calls to metadefender api to obtain scan reports using hash values or
 
 # Setup
 
-* Before running the program, replace 'KEY' in the api_headers and upload_headers dict with a valid api key.
+- Before running the program, replace 'KEY' in the api_headers and upload_headers dict with a valid api key.
 
-* Requires the 'requests' and 'hashlib' python modules to be installed
+- Requires the 'requests' and 'hashlib' python modules to be installed
 
 ![image](https://user-images.githubusercontent.com/59483688/125090423-50803980-e09d-11eb-869c-b9b93a2b221e.png)
 
 
 # To run:
+* python3 api_call.py file-path
 
-python3 api_call.py file-path
 
-Example:
+Examples:
 
-python3 api_call.py sample.txt
+* python3 api_call.py sample.txt
 
-python3 api_call.py C:\Users\name\Desktop\sample.txt
+* python3 api_call.py C:\Users\name\Desktop\sample.txt
 
 
 # Details
