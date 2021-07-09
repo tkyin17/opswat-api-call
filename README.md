@@ -17,6 +17,8 @@ python3 api_call.py sample.txt
 python3 api_call.py C:\Users\name\Desktop\sample.txt
 
 
+DETAILS
+
 The program will read in the target file as bytes, compute the hash value of the specified hash methods (md5, sha1, or sha256), send a request to the metadefender api to retrieve the scan results, and if found, will print some information from the scan report include the status of the file, engines used to scan, number of threats found.
 
 If the hash is not found in the metadefender server, then the file must be uploaded to the server to be scanned. The program will automatically attempt to upload the file if no matching hash value was found. Then the program will continuously poll the server by sending a scan report retrieval request using dataid. If the scan is still inqueued, then the program continue polling until the file scan is completed and the scan report is successfully retrieved.
