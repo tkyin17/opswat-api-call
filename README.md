@@ -1,6 +1,11 @@
 # opswat_api_call
 OPSWAT api calls to metadefender api to obtain scan reports using hash values or dataid, and also upload files if they do not already exist on the server
 
+Before running the program, replace 'KEY' in the api_headers and upload_headers dict with a valid api key.
+
+![image](https://user-images.githubusercontent.com/59483688/125090423-50803980-e09d-11eb-869c-b9b93a2b221e.png)
+
+
 To run:
 python3 api_call.py file
 
